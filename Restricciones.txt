@@ -1,0 +1,29 @@
+* No se puede incluir NINGUNA libreria externa que no sea una de las b ́asicas de C. (eg, stdlib.h, stdio.h,
+strings.h, stdbool.h, assert.h etc, si, pero otras no. Especificamente, glibc NO).
+
+* El codigo debe ser razonablemente portable, aunque no es probable que testemos sobre Apple, y en general
+testearemos con Linux, quizas podamos testearlo desde Windows.
+
+* No pueden usar archivos llamados aux.c o aux.h
+
+* No pueden usar getline.
+
+* El uso de macros esta permitido pero como siempre, sean cuidadosos si los usan.
+
+Formnato de entrega 
+
+Los archivos del programa deben ser todos archivos .c o .h.
+Pueden entregar un s ́olo .c con todas las funciones si quieren, o separados en varios archivos, pero no debe haber
+ningun include de un .c
+No debe haber ningun ejecutable en los archivos entregados.
+Los .c que entreguen deben hacer un include de un archivo API llamado APIG24.h donde se declaran las
+funciones.
+APIG24.h tiene simplemente la declaraci ́on de las funciones, la declaraci ́on del tipo de datos 2.1 definida mas
+abajo y un include de otro .h, EstructuraGrafo24.h . Para evitar errores de tipeo con las declaraciones de las
+funciones, subiremos una copia de APIG24.h a la p ́agina del Aula Virtual. EstructuraGrafo24.h en cambio ser ́a
+particular de cada grupo, porque depender ́a de la forma particular que cada grupo decida estructurar las cosas, asi
+que cada uno entregar ́a una copia distinta.
+Para testear deber ́an (o al menos, deber ́ıan) hacer por su cuenta uno o mas .c que incluyan un main que les
+ayude a testear sus funciones, incluyendo funciones nuevas que ustedes quieran usar para testear cosas. (pej, luego
+de cargar el grafo, imprimir los vertices y sus vecinos para chequear que sus funciones cargaron bien el grafo). Estos
+archivos NO deben ser entregados.
