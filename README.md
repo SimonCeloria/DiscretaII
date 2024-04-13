@@ -1,7 +1,7 @@
 # DiscretaII
 Repo del proyecto de Discreta 2 FAMAF
 ---
-title: Proyecto parte 1 (temporalmente)
+Proyecto parte 1 (temporalmente)
 author: Renzo Condormango, Simón Celoria, Francisco Jose Porcel de Peralta
 ---
 
